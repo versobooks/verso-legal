@@ -9,15 +9,17 @@ referenced from within the app and from the App Store and Google Play listings.
 
 # Privacy Policy
 
-Last updated: July 1, 2026
+Last updated: July 6, 2026
 
 ## Summary
 
 Verso is an offline-first book inventory app. It has no account, no login, no
 analytics, no advertising, and no tracking. All of your data stays on your
-device. The app contacts two public book catalog services only to look up book
-details by ISBN or by the title text you type. The camera is used solely on your
-device to read a book's barcode.
+device. To look up book details, the app contacts public book catalog services
+using the ISBN or title text you provide. For the optional one-time Verso Pro
+purchase, it also uses a purchase-management service. The camera is used on your
+device to read a book's barcode, and, if you choose, to read an ISBN or cover
+text from a photo you take.
 
 ## What data we collect
 
@@ -32,8 +34,11 @@ export) are written to a location you choose and are under your control.
 
 The app requests camera permission to scan a book's barcode (for example the ISBN
 on the back cover). The camera feed is processed on your device to decode the
-barcode. Camera images are not stored, uploaded, or sent anywhere. You can also
-enter an ISBN by hand or search by title text instead of using the camera.
+barcode and is not stored, uploaded, or sent anywhere. If you use the optional
+photo capture (part of Verso Pro) to read an ISBN or the text on a cover, that
+photo is processed on your device by on-device text recognition and is not
+uploaded or sent anywhere. You can also enter an ISBN by hand or search by title
+text instead of using the camera.
 
 ## Third-party book catalog lookups
 
@@ -59,6 +64,22 @@ We do not send your stored library, wishlist, notes, or any personal identifier
 to these services. Only the identifier or text needed for the specific lookup is
 sent.
 
+## In-app purchase (Verso Pro)
+
+Verso offers one optional purchase: a single, one-time "Verso Pro" unlock. There
+is no subscription and no account. The purchase itself is processed by the App
+Store or Google Play; we never receive or store your payment or billing details.
+
+To check and restore whether you own Pro, the app uses RevenueCat, a
+purchase-management service. On the mobile app, Verso contacts RevenueCat each
+time the app starts (to see whether Pro is active on your device) and when you
+view or make the purchase. RevenueCat receives a randomly generated identifier
+for your install (not your name, email, or your Verso library), your Pro purchase
+status, and, as with any internet request, your device's IP address. Its handling
+of this data is governed by its own privacy policy:
+
+- RevenueCat privacy policy: https://www.revenuecat.com/privacy
+
 ## Data storage and retention
 
 All app data is stored locally on your device. We do not retain a copy. To delete
@@ -69,9 +90,8 @@ exported remain wherever you saved them until you delete them yourself.
 
 The app does not collect personal information and is not directed at children. It
 contains no ads, no social features, and no user-generated content shared with
-others. It offers one optional in-app purchase: a single, one-time "Verso Pro"
-unlock. The purchase is processed by the App Store or Google Play; we do not
-receive or store your payment details, and there is no account or subscription.
+others. Its one optional in-app purchase, Verso Pro, is described above and
+requires no account or subscription.
 
 ## Your rights (GDPR / CCPA and similar)
 
