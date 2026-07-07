@@ -82,9 +82,13 @@ of this data is governed by its own privacy policy:
 
 ## Data storage and retention
 
-All app data is stored locally on your device. We do not retain a copy. To delete
-your data, delete it within the app or uninstall the app. Backups you have
-exported remain wherever you saved them until you delete them yourself.
+All app data is stored locally on your device. We do not retain a copy. Your
+device's own operating-system backup (iCloud on iOS, Auto Backup on Android) may
+include your Verso library as part of your personal, account-encrypted device
+backup, so a reinstall or a new device can restore it. That backup is controlled
+entirely by your device settings, and we never receive it. To delete your data,
+delete it within the app or uninstall the app. Backups you have exported remain
+wherever you saved them until you delete them yourself.
 
 ## Children's privacy
 
